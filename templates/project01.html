@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Password Checker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Portfolio website</strong> <span>by Aris Stampolidis</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Project 01 - Password Checker</h1>
+									</header>
+							<p>This app will show you how many times a password was hacked.<br> You can use this app to check if a current password you use, or a password you want to use is safe.</p>
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form action="{{ url_for('predict')}}" method="post">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Try typing a password below:</label>
+											<input type="text" name="password" id="subject" placeholder="Password you want to test">
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Test password" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul><font size="5">{{prediction_text}}</font></p>
+								</form>
+							</section>
+							<section class="split">
+
+								<section>
+									<div class="contact-method">
+										<h3>Tip:</h3>
+										<span>You can start with an easy one for fun :D<br>like: "password123" or "passw0rd" lol</span>
+									</div>
+								</section>
+
+							</section>
+
+						</div>
+					</section>
+
+									<span class="image main"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/password4.jpg" alt="" /></span>
+
+								</div>
+
+
+
+
+
+							</section>
+
+					</div>
+
+
+
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/aris.stabolidis"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/facebook.png" alt="Facebook"></a></li>
+								<li><a href="https://twitter.com/ArisStampolidis"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/twitter.png" alt="Twitter"></a></li>
+								<li><a href="https://www.instagram.com/aris_stab/"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/instagram.png" alt="Instagram"></a></li>
+								<li><a href="https://github.com/ArisStampolidis"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/github.png" alt="Github"></a></li>
+								<li><a href="https://www.linkedin.com/in/aris-stampolidis-1997b01a4/"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/linkedin.png" alt="LinkedIn"></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>| Website created by Aris Stampolidis |</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/jquery.min.js"></script>
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/jquery.scrolly.min.js"></script>
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/jquery.scrollex.min.js"></script>
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/browser.min.js"></script>
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/breakpoints.min.js"></script>
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/util.js"></script>
+			<script src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/main.js"></script>
+
+	</body>
+</html>
