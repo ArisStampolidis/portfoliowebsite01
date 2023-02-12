@@ -6,8 +6,8 @@
 	    <link href="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/static/assets/favicon.ico" rel="icon">
 		<title>Aris Stampolidis Portfolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link href="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/css/main.css" rel="stylesheet">
-		<noscript><link href="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/css/noscript.css" rel="stylesheet"></noscript>
+		<link href="./static/assets/css/main.css" rel="stylesheet">
+		<noscript><link href="./static/assets/css/noscript.css" rel="stylesheet"></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -37,7 +37,7 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>Hello there! My name is Aris</h1>
+								<h1>Hello there!<br>My name is Aris</h1>
 							</header>
 							<div class="content">
 								<p>I'm a Python and Web Developer, this is my website.<br> Take your time exploring it.</p>
@@ -55,7 +55,7 @@
 							<section id="one" class="tiles">
 								<article>
 									<span class="image">
-										<img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/pic01.jpg" alt="" />
+										<img src="./static/images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="projects.html" class="link">My Projects</a></h3>
@@ -64,7 +64,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/pic02.jpg" alt="" />
+										<img src="./static/images/pic02.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="project01.html" class="link">Project 01 - Password Checker</a></h3>
@@ -73,16 +73,16 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/pic03.jpg" alt="" />
+										<img src="./static/images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project02.html" class="link">Project 02 - TBA</a></h3>
-										<p>TBA</p>
+										<h3><a href="project02.html" class="link">Project 02 - Background Colour Generator</a></h3>
+										<p>Just a fun pointless little Javascript app. You can change and mix the background colour of this page.</p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/pic04.jpg" alt="" />
+										<img src="./static/images/pic04.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="project03.html" class="link">Project 03 - TBA</a></h3>
@@ -91,7 +91,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/pic05.jpg" alt="" />
+										<img src="./static/images/pic05.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="project04.html" class="link">Project 04 - TBA</a></h3>
@@ -100,7 +100,7 @@
 								</article>
 								<article>
 									<span class="image">
-										<img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/pic06.jpg" alt="" />
+										<img src="./static/images/pic06.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="project05.html" class="link">Project 05 - TBA</a></h3>
@@ -128,15 +128,16 @@
 					</div>
 
 <br>
+
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="https://www.facebook.com/aris.stabolidis"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/facebook.png" alt="Facebook"></a></li>
-								<li><a href="https://twitter.com/ArisStampolidis"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/twitter.png" alt="Twitter"></a></li>
-								<li><a href="https://www.instagram.com/aris_stab/"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/instagram.png" alt="Instagram"></a></li>
-								<li><a href="https://github.com/ArisStampolidis"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/github.png" alt="Github"></a></li>
-								<li><a href="https://www.linkedin.com/in/aris-stampolidis-1997b01a4/"><img src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/images/icons/linkedin.png" alt="LinkedIn"></a></li>
+								<li><a href="https://www.facebook.com/aris.stabolidis/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://twitter.com/ArisStampolidis" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.instagram.com/aris_stab/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/ArisStampolidis" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/aris-stampolidis-1997b01a4/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
 								<li>| Website created by Aris Stampolidis |</li>
@@ -147,13 +148,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/jquery.min.js"> async</script>
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/jquery.scrolly.min.js"> async</script>
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/jquery.scrollex.min.js"> async</script>
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/browser.min.js"> async</script>
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/breakpoints.min.js"> async</script>
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/util.js"> async</script>
-			<script type="text/javascript" src="https://www.pythonanywhere.com/user/ArisStampolidis/files/home/ArisStampolidis/portfolio01/templates/assets/js/main.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/jquery.min.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/jquery.scrolly.min.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/jquery.scrollex.min.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/browser.min.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/breakpoints.min.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/util.js"> async</script>
+			<script type="text/javascript" src="./static/assets/js/main.js"> async</script>
 
 	</body>
 </html>
