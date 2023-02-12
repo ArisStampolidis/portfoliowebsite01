@@ -46,4 +46,4 @@ def submit_form():
 def predict():
     password = request.form['password']
     result = str(main(password))
-    return render_template('work1.html', prediction_text=(result))
+    return render_template('project01.html', prediction_text=(result))
